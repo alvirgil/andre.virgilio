@@ -1,0 +1,32 @@
+.btn-light {
+    border-radius: 100px;
+    border: 1px solid var(--green-light);
+    padding: .8rem 4.8rem;
+    color: var(--green-light);
+    font-family: Goldman;
+    font-size: 2rem;
+    font-weight: 400;
+    &:hover {
+        background-color: var(--green-light);
+        color: var(--green-dark);
+        border: none;
+        transition: all .3s ease;
+    }
+}
+
+.btn-dark {
+    width: 254px;
+    border-radius: 100px;
+    border: 1px solid var(--green-dark);
+    padding: .8rem 0;
+    color: var(--green-dark);
+    font-family: Goldman;
+    font-size: 2rem;
+    font-weight: 400;
+    &:hover {
+        background-color: var(--green-dark);
+        color: var(--gray-text-light);
+        border: none;
+        transition: all .3s ease;
+    }
+}

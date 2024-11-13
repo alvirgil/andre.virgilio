@@ -1,0 +1,67 @@
+.cards  {
+        width: 38.6rem;
+        color: var(--green-light);
+        font-weight: 700;
+        line-height: 100%;
+        padding: 5.6rem 3.2rem;
+        border-radius: 0.8rem;
+        border: 2px solid #00BD95;
+        background: rgba(21, 87, 80, 0.20);
+        .title {
+            justify-content: center;
+            display: flex;
+            gap: 1.2rem;
+            margin-bottom: 2.4rem;  
+            span {
+                font-family: Goldman;
+                font-size: 10rem; 
+                line-height: 70%;
+            }
+            h3 {
+                font-size: 80px;
+                line-height: 70%;
+            }
+        }
+        p {
+            color: var(--gray-text-light);
+            text-align: center;
+            font-family: Mohave;
+            font-size: 2.4rem;
+            font-weight: 500;
+        }
+        &:hover {
+            background: rgba(10, 49, 46, 0.8);
+            border-radius: 0.8rem;
+            border: 2px solid #71ffe0;
+            transition: all .3s ease;
+            color:#71ffe0;
+            p {
+                color:#ffffff;
+            }
+        }
+        }
+
+.ver-mais {
+    a {
+        width: 100%;
+    span {
+        gap: 8px;
+        display: flex;
+        color: #00BD95;
+        font-size: 1.8rem;
+       
+        .arrow {
+            max-width: 24px;
+            height: 24px;
+        }
+        &:hover {
+            color: var(--gray-text-light);
+            transition: all .3s ease;
+        }
+    }
+    
+    
+    }
+    
+    
+}
