@@ -230,6 +230,8 @@
     padding-bottom: 8rem;
     background: var(--gray-light-background);
     .container {
+        display: flex;
+        justify-content: space-between;
         .left {
             width: 100%;
             max-width: 48rem;
@@ -241,8 +243,25 @@
                 margin-bottom: 4rem;
             }
         }
+
+        .right {
+            width: 100%;
+            max-width: 580px;
+            overflow-x: hidden;
+            .ver-mais-dark {
+                span {
+                    justify-content: flex-end;
+                    margin-right: 8px;
+                }
+            }
+        }
+        
+    
+        
     }
-    }
+    
+    
+}
 
 .s-call-to-action {
     

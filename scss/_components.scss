@@ -68,3 +68,45 @@
     
     
 }
+
+.ver-mais-dark {
+    a {
+        width: 100%;
+    span {
+        gap: 8px;
+        display: flex;
+        color: var(--green-dark);
+        font-size: 1.8rem;
+       
+        .arrow {
+            max-width: 24px;
+            height: 24px;
+        }
+        &:hover {
+            color: var(--gray-text-dark);
+            transition: all .3s ease;
+        }
+    }
+    
+    
+    }
+    
+    
+}
+
+.swiper-slide {
+    width: 100%;
+    max-width: 580px;
+    height: 300px;
+    margin-bottom: 24px;
+    .especialista {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        margin-bottom: 16px;
+        p {
+            color: var(--gray-text-dark);
+            font-size: 18px;
+                    }
+    }
+}
