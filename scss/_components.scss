@@ -42,7 +42,7 @@
                 color:#ffffff;
             }
         }
-        }
+}
 
 .ver-mais {
     a {
@@ -94,7 +94,7 @@
     
 }
 
-.swiper-slide {
+.card-depoimento {
     width: 100%;
     max-width: 580px;
     height: 300px;
@@ -108,4 +108,18 @@
         color: var(--gray-text-dark);
         font-size: 18px;
     }
+}
+
+.card-portfolio {
+    width: 100%;
+    max-width: 408px;
+    height: 307px;
+    align-content: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+    img {
+        margin: 0 auto;
+        padding-bottom: 32px;
+    }
+    
 }

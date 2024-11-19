@@ -9,5 +9,19 @@ var swiper = new Swiper(".right .slide-depoimentos", {
       el: ".swiper-pagination",
       clickable: true,
     },
-    
+  });
+
+  
+
+  var swiper = new Swiper(".carrossel", {
+    slidesPerView: "3",
+    spaceBetween: 24,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
   });

@@ -31,14 +31,17 @@
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Depoimentos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
             <li><a href="#">Blog</a></li>
           </ul>
         </nav>
         <div class="button">
-          <button class="btn-light">Contatos</button>
+          <a href="#">
+            <button class="btn-light">Contatos</button>
+          </a>
         </div>
       </div>
     </header>
@@ -120,7 +123,7 @@
       </div>
     </section>
 
-    <section class="s-jornada">
+    <section class="s-jornada" id="sobre">
       <div class="container">
         <img src="img/astronaut-coffee.png" class="img-right" alt="" />
         <div class="right">
@@ -187,7 +190,7 @@
       </div>
     </section>
 
-    <section class="s-experiencia">
+    <section class="s-experiencia" id="experiencia">
       <div class="container">
         <div class="left">
           <h2>Minha<br />experiência</h2>
@@ -297,28 +300,109 @@
       </div>
     </section>
 
-    <section class="s-portfolio">
+    <section class="s-portfolio" id="portfolio">
       <div class="container">
-        <div class="title">
-          <h2>Meu<br />portfólio</h2>
-          <p>
-            Cada projeto aqui conta uma história — da pesquisa inicial ao último
-            pixel. Meu portfólio reflete a diversidade de desafios que
-            enfrentei, sempre com o propósito de criar experiências
-            significativas e centradas nas pessoas. Cada tela, interação e
-            jornada é projetada para atender a necessidades reais e impactar
-            positivamente o usuário.
-          </p>
-          <p>
-            Explore os projetos e veja como técnica e empatia se unem em cada
-            detalhe do design.
-          </p>
+        <div class="principal">
+            <div class="title">
+                <h2>Meu<br />portfólio</h2>
+                <p>
+                  Cada projeto aqui conta uma história — da pesquisa inicial ao último
+                  pixel. Meu portfólio reflete a diversidade de desafios que
+                  enfrentei, sempre com o propósito de criar experiências
+                  significativas e centradas nas pessoas. Cada tela, interação e
+                  jornada é projetada para atender a necessidades reais e impactar
+                  positivamente o usuário.
+                </p>
+                <p>
+                  Explore os projetos e veja como técnica e empatia se unem em cada
+                  detalhe do design.
+                </p>
+              </div>
+              <div class="ver-mais">
+                      <a href="#">
+                        <span>Ver todos os cases
+                          <img src="img/arrow-right.svg" class="arrow" alt=""
+                        /></span>
+                      </a>
+                    </div>
         </div>
-        <div class="cases"></div>
+        <div class="cases">
+            <div class="carrossel">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card-portfolio">
+                                <div class="logo"><img src="img/logo-hubs-contabilidade.png" alt=""></div>
+                                <h5>UX/UI Design</h5>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card-portfolio">
+                                <img src="img/logo-defender-club.png" alt="">
+                                <h5>UX/UI Design</h5>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card-portfolio">
+                                <img src="img/logo-agrobiologica.png" alt="">
+                                <h5>UX/UI Design</h5>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card-portfolio">
+                                <img src="img/logo-dkt-academy.png" alt="">
+                                <h5>UX/UI Design</h5>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card-portfolio">
+                                <img src="img/logo-dkt-salu.png" alt="">
+                                <h5>UX/UI Design</h5>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                       <a href="#">
+                        <div class="card-portfolio">
+                            <img src="img/logo-contilider.png" alt="">
+                            <h5>UX/UI Design | Wordpress | SEO</h5>
+                          </div>
+                       </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card-portfolio">
+                                <img src="img/logo-angra-living.png" alt="">
+                                <h5>UX/UI Design | Wordpress | SEO</h5>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card-portfolio">
+                                <img src="img/logo-anita-galvao.png" alt="">
+                                <h5>UX/UI Design | Wordpress | SEO</h5>
+                              </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
       </div>
     </section>
 
-    <section class="s-depoimentos">
+    <section class="s-depoimentos" id="depoimentos">
       <div class="container">
         <div class="left">
           <h2>O que dizem<br />sobre mim</h2>
@@ -332,76 +416,82 @@
         </div>
         <div class="right">
             <div class="slide-depoimentos">
+                <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="especialista">
-                            <img src="img/amaro-monteiro.png" alt="" />
-                            <div class="info">
-                              <h5>AMARO MONTEIRO</h5>
-                              <p>UX Designer Senior no Burger King do Brasil</p>
-                            </div>
-                          </div>
-                          <p>
-                            Virgilio é um dos maiores UX Lead que já conheci, profissional com
-                            ampla experiência no mercado, porém, sempre curioso em aprender
-                            cada vez mais. Sempre disposto a ensinar e a criar novas formas de
-                            impulsionar o time que está liderando. Sua comunicação inspira
-                            seus liderados e direciona o time para fazer um trabalho otimizado
-                            e de qualidade.
-                          </p>
-                          <p>
-                            Além de uma trajetória inspiradora, Virgilio traz em sua bagagem
-                            elementos chave para ser um excelente líder. A empresa que
-                            contratar o Virgilio terá um profissional completo, um ser humano
-                            extraordinário e que trará resultados além das metas propostas.
-                          </p>
-
+                        <div class="card-depoimento">
+                            <div class="especialista">
+                                <img src="img/amaro-monteiro.png" alt="" />
+                                <div class="info">
+                                  <h4>AMARO MONTEIRO</h4>
+                                  <p>UX Designer Senior no Burger King do Brasil</p>
+                                </div>
+                              </div>
+                              <p>
+                                Virgilio é um dos maiores UX Lead que já conheci, profissional com
+                                ampla experiência no mercado, porém, sempre curioso em aprender
+                                cada vez mais. Sempre disposto a ensinar e a criar novas formas de
+                                impulsionar o time que está liderando. Sua comunicação inspira
+                                seus liderados e direciona o time para fazer um trabalho otimizado
+                                e de qualidade.
+                              </p>
+                              <p>
+                                Além de uma trajetória inspiradora, Virgilio traz em sua bagagem
+                                elementos chave para ser um excelente líder. A empresa que
+                                contratar o Virgilio terá um profissional completo, um ser humano
+                                extraordinário e que trará resultados além das metas propostas.
+                              </p>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="especialista">
-                            <img src="img/ailton-fernandes.png" alt="" />
-                            <div class="info">
-                              <h5>Ailton Fernandes da Silva Junior</h5>
-                              <p>Especialista em Engenharia de Manufatura</p>
-                            </div>
-                          </div>
-                          <p>
-                            É com grande satisfação que recomendo o André pelo seu notável
-                            profissionalismo e competência exemplar. Desde o início de nossas
-                            carreiras na Embraer, testemunhei sua dedicação e conhecimento
-                            técnico impressionante em montagens estruturais de aeronave, tanto
-                            teórico quanto prático. André é um verdadeiro líder nato,
-                            demonstrando resiliência e determinação em todas as situações. Sua
-                            transição para uma carreira de liderança na empresa não foi
-                            surpresa para mim, pois sempre soube que ele possuía as qualidades
-                            necessárias para tal. Sua conduta profissional é impecável, e sua
-                            capacidade de inspirar e motivar os outros é verdadeiramente
-                            admirável. Estou confiante de que André continuará a alcançar o
-                            sucesso em todas as suas empreitadas futuras.
-                          </p>
+                        <div class="card-depoimento">
+                            <div class="especialista">
+                                <img src="img/ailton-fernandes.png" alt="" />
+                                <div class="info">
+                                  <h4>Ailton Fernandes da Silva Junior</h4>
+                                  <p>Especialista em Engenharia de Manufatura</p>
+                                </div>
+                              </div>
+                              <p>
+                                É com grande satisfação que recomendo o André pelo seu notável
+                                profissionalismo e competência exemplar. Desde o início de nossas
+                                carreiras na Embraer, testemunhei sua dedicação e conhecimento
+                                técnico impressionante em montagens estruturais de aeronave, tanto
+                                teórico quanto prático. André é um verdadeiro líder nato,
+                                demonstrando resiliência e determinação em todas as situações. Sua
+                                transição para uma carreira de liderança na empresa não foi
+                                surpresa para mim, pois sempre soube que ele possuía as qualidades
+                                necessárias para tal. Sua conduta profissional é impecável, e sua
+                                capacidade de inspirar e motivar os outros é verdadeiramente
+                                admirável. Estou confiante de que André continuará a alcançar o
+                                sucesso em todas as suas empreitadas futuras.
+                              </p>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="especialista">
-                            <img src="img/francisco-nunes.png" alt="" />
-                            <div class="info">
-                              <h5>Francisco Nunes</h5>
-                              <p>Senior Product Designer na Bossa Box</p>
-                            </div>
-                          </div>
-                          <p>
-                            Conheci o André em um projeto de Discovery. Ele é um profissional
-                            ágil, tem visão de produto e de negócio e sabe equilibrar essas
-                            duas áreas com as necessidades dos usuários. Tem um pensamento
-                            crítico e assertivo e é sempre uma experiência enriquecedora os
-                            insights que ele traz para os projetos.
-                          </p>
+                        <div class="card-depoimento">
+                            <div class="especialista">
+                                <img src="img/francisco-nunes.png" alt="" />
+                                <div class="info">
+                                  <h4>Francisco Nunes</h4>
+                                  <p>Senior Product Designer na Bossa Box</p>
+                                </div>
+                              </div>
+                              <p>
+                                Conheci o André em um projeto de Discovery. Ele é um profissional
+                                ágil, tem visão de produto e de negócio e sabe equilibrar essas
+                                duas áreas com as necessidades dos usuários. Tem um pensamento
+                                crítico e assertivo e é sempre uma experiência enriquecedora os
+                                insights que ele traz para os projetos.
+                              </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="ver-mais-dark">
                 <a href="https://www.linkedin.com/in/andrevirgilio/">
                   <span
-                    >Ver mais sobre mim
+                    >Ver todos no Linkedin
                     <img src="img/arrow-right-dark.svg" class="arrow" alt=""
                   /></span>
                 </a>
