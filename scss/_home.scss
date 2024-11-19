@@ -87,10 +87,10 @@
                 color: var(--gray-text-light);
                 font-size: 1.8rem;
                 line-height: normal;
-                p {
-                    margin-bottom: 1.5em; /* Espaçamento entre parágrafos */
-                    text-align: justify;  /* Alinha o texto justificado */
-                }            
+                margin-bottom: 1.5em;
+                strong {
+                    font-size: 1.8rem;
+                }
             }
             .links {
                 display: flex;
@@ -248,11 +248,14 @@
             width: 100%;
             max-width: 580px;
             overflow-x: hidden;
+            .slide-depoimentos {
+                margin-bottom: 56px;
+            }
             .ver-mais-dark {
+                
                 span {
                     justify-content: flex-end;
-                    margin-right: 8px;
-                }
+                    margin-right: 8px;                }
             }
         }
         
