@@ -1,30 +1,30 @@
 header {
-    display: flex;
-    top: 0;
-    padding-top: 40px;
+  display: flex;
+  top: 0;
+  padding-top: 40px;
+  width: 100%;
+  height: 8rem;
+  background: #1b262f;
+  .container {
+    @include flex(row, center, space-between);
+  }
+  .logo-header {
     width: 100%;
-    height: 8rem;
-    background: #1B262F;
-    .container {
-        @include flex(row, center, space-between);
+    max-width: 162px;
+  }
+  nav ul {
+    display: flex;
+    gap: 48px;
+    li a {
+      color: var(--gray-medium);
+      font-family: Goldman;
+      font-size: 18px;
+      font-weight: 400;
+      &:hover {
+        color: var(--green-light);
+        border: none;
+        transition: all 0.3s ease;
+      }
     }
-    .logo-header {
-        width: 100%;
-        max-width: 162px;
-    }
-    nav ul {
-        display: flex;
-        gap: 48px;
-        li a {
-            color: var(--gray-medium);
-            font-family: Goldman;
-            font-size: 18px;
-            font-weight: 400;
-            &:hover {
-                color: var(--green-light);
-                border: none;
-                transition: all .3s ease;
-            }
-        }
   }
 }

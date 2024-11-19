@@ -1,125 +1,116 @@
-.cards  {
-        width: 38.6rem;
-        color: var(--green-light);
-        font-weight: 700;
-        line-height: 100%;
-        padding: 5.6rem 3.2rem;
-        border-radius: 0.8rem;
-        border: 2px solid #00BD95;
-        background: rgba(21, 87, 80, 0.20);
-        .title {
-            justify-content: center;
-            display: flex;
-            gap: 1.2rem;
-            margin-bottom: 2.4rem;  
-            span {
-                font-family: Goldman;
-                font-size: 10rem; 
-                line-height: 70%;
-            }
-            h3 {
-                font-size: 80px;
-                line-height: 70%;
-            }
-        }
-        p {
-            color: var(--gray-text-light);
-            text-align: center;
-            font-family: Mohave;
-            font-size: 2.4rem;
-            font-weight: 500;
-        }
-        &:hover {
-            background: rgba(10, 49, 46, 0.8);
-            border-radius: 0.8rem;
-            border: 2px solid #71ffe0;
-            transition: all .3s ease;
-            color:#71ffe0;
-            h3 {
-                color:#71ffe0;
-            }
-            p {
-                color:#ffffff;
-            }
-        }
+.cards {
+  width: 38.6rem;
+  color: var(--green-light);
+  font-weight: 700;
+  line-height: 100%;
+  padding: 5.6rem 3.2rem;
+  border-radius: 0.8rem;
+  border: 2px solid #00bd95;
+  background: rgba(21, 87, 80, 0.2);
+  .title {
+    justify-content: center;
+    display: flex;
+    gap: 1.2rem;
+    margin-bottom: 2.4rem;
+    span {
+      font-family: Goldman;
+      font-size: 10rem;
+      line-height: 70%;
+    }
+    h3 {
+      font-size: 80px;
+      line-height: 70%;
+    }
+  }
+  p {
+    color: var(--gray-text-light);
+    text-align: center;
+    font-family: Mohave;
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  &:hover {
+    background: rgba(10, 49, 46, 0.8);
+    border-radius: 0.8rem;
+    border: 2px solid #71ffe0;
+    transition: all 0.3s ease;
+    color: #71ffe0;
+    h3 {
+      color: #71ffe0;
+    }
+    p {
+      color: #ffffff;
+    }
+  }
 }
 
 .ver-mais {
-    a {
-        width: 100%;
+  a {
+    width: 100%;
     span {
-        gap: 8px;
-        display: flex;
-        color: #00BD95;
-        font-size: 1.8rem;
-       
-        .arrow {
-            max-width: 24px;
-            height: 24px;
-        }
-        &:hover {
-            color: var(--gray-text-light);
-            transition: all .3s ease;
-        }
+      gap: 8px;
+      display: flex;
+      color: #00bd95;
+      font-size: 1.8rem;
+
+      .arrow {
+        max-width: 24px;
+        height: 24px;
+      }
+      &:hover {
+        color: var(--gray-text-light);
+        transition: all 0.3s ease;
+      }
     }
-    
-    
-    }
-    
-    
+  }
 }
 
 .ver-mais-dark {
-    a {
-        width: 100%;
+  a {
+    width: 100%;
     span {
-        gap: 8px;
-        display: flex;
-        color: var(--green-dark);
-        font-size: 1.8rem;
-       
-        .arrow {
-            max-width: 24px;
-            height: 24px;
-        }
-        &:hover {
-            color: var(--gray-text-dark);
-            transition: all .3s ease;
-        }
+      gap: 8px;
+      display: flex;
+      color: var(--green-dark);
+      font-size: 1.8rem;
+
+      .arrow {
+        max-width: 24px;
+        height: 24px;
+      }
+      &:hover {
+        color: var(--gray-text-dark);
+        transition: all 0.3s ease;
+      }
     }
-    
-    
-    }
-    
-    
+  }
 }
 
 .card-depoimento {
-    width: 100%;
-    max-width: 580px;
-    height: 300px;
-    .especialista {
-        display: flex;
-        gap: 24px;
-        align-items: center;
-        margin-bottom: 16px;
-    }
-    p {
-        color: var(--gray-text-dark);
-        font-size: 18px;
-    }
+  width: 100%;
+  max-width: 580px;
+  height: 300px;
+  .especialista {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  p {
+    color: var(--gray-text-dark);
+    font-size: 18px;
+  }
 }
 
 .card-portfolio {
-    width: 100%;
-    max-width: 408px;
-    height: 307px;
-    align-content: center;
-    background-color: #ffffff;
-    border-radius: 4px;
-    img {
-        margin: 0 auto;
-        padding-bottom: 32px;
-    }
-    
+  width: 100%;
+  max-width: 408px;
+  height: 307px;
+  align-content: center;
+  background-color: #ffffff;
+  border-radius: 4px;
+  img {
+    margin: 0 auto;
+    padding-bottom: 32px;
+  }
 }

@@ -1,41 +1,39 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    box-sizing: border-box;
-    font-family: "Mohave", sans-serif;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Mohave", sans-serif;
+  font-size: 16px;
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 html {
-    font-size: 62.5%;    
+  font-size: 62.5%;
 }
 
 p {
-    &:not(:last-child) {
-        margin-bottom: 18px;
-    }
+  &:not(:last-child) {
+    margin-bottom: 18px;
+  }
 }
 
-html, body {
-    .container  {
-        width: 100%;
-        max-width: 131.8rem;
-    }
-    background: var(--black-background);
+html,
+body {
+  .container {
+    width: 100%;
+    max-width: 131.8rem;
+  }
+  background: var(--black-background);
 }
 
 button {
-    background-color: transparent;
-    cursor: pointer;
+  background-color: transparent;
+  cursor: pointer;
 }
-
-
-
