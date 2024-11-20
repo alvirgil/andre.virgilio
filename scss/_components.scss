@@ -44,6 +44,33 @@
   }
 }
 
+@media (max-width: 1150px) {
+  .cards {
+    width: 34.8rem;
+    margin-bottom: 12px;
+    .title {
+      span {
+        font-size: 7rem;
+      }
+      h3 {
+        font-size: 7rem;
+      }
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .cards {
+    width: 30rem;
+    p {
+      font-size: 1.8rem;
+    }
+  }
+}
+
 .ver-mais {
   a {
     width: 100%;
@@ -112,5 +139,16 @@
   img {
     margin: 0 auto;
     padding-bottom: 32px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-portfolio {
+    width: 100%;
+    max-width: 380px;
+    height: 240px;
+  }
+  .card-portfolio img {
+    width: 240px;
   }
 }

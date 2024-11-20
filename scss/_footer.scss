@@ -53,3 +53,34 @@ footer {
     }
   }
 }
+
+@media (max-width: 1150px) {
+  footer .container .info .imagem {
+    margin-right: 2.4rem;
+    margin-left: 9.5rem;
+  }
+  footer .container .info .text {
+    max-width: 30rem;
+    padding-right: 2.4rem;
+    margin-left: 4rem;
+  }
+
+  footer .container .info .text p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 991px) {
+  footer .container .info .imagem {
+    margin-right: 2.4rem;
+    margin-left: 3rem;
+  }
+  footer .container .info .text {
+    max-width: 30rem;
+    padding-right: 2.4rem;
+    margin-left: 4rem;
+  }
+  footer .container .info .text p {
+    font-size: 1.6rem;
+  }
+}

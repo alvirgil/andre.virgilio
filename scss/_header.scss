@@ -10,15 +10,15 @@ header {
   }
   .logo-header {
     width: 100%;
-    max-width: 162px;
+    max-width: 16.2rem;
   }
   nav ul {
     display: flex;
-    gap: 48px;
+    gap: 4.8rem;
     li a {
       color: var(--gray-medium);
       font-family: Goldman;
-      font-size: 18px;
+      font-size: 1.8rem;
       font-weight: 400;
       &:hover {
         color: var(--green-light);
@@ -26,5 +26,26 @@ header {
         transition: all 0.3s ease;
       }
     }
+  }
+}
+
+@media (max-width: 1150px) {
+  header .logo-header {
+    max-width: 14rem;
+  }
+  header nav ul {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 991px) {
+  header .logo-header {
+    max-width: 12rem;
+  }
+  header nav ul li a {
+    font-size: 1.6rem;
+  }
+  header nav ul {
+    gap: 2.4rem;
   }
 }

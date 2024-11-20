@@ -50,12 +50,59 @@
       }
       .img-hero {
         margin-top: -200px;
-        margin-left: -64px;
+        margin-left: -18px;
         width: 100%;
         max-width: 68.2rem;
         z-index: 1;
       }
     }
+  }
+}
+
+@media (max-width: 1280px) {
+  .s-hero .container .content .img-hero {
+    margin-left: -72px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .s-hero {
+    height: 58.8rem;
+  }
+  .s-hero .container .content .left .title h1 {
+    font-size: 72px;
+  }
+  .s-hero .container .content .img-hero {
+    margin-top: -180px;
+    max-width: 580px;
+    margin-left: -100px;
+  }
+  .s-hero .container .content .social {
+    display: flex;
+    align-items: center;
+    padding-top: 152px;
+    width: 480px;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  .s-hero {
+    height: 54.5rem;
+  }
+  .s-hero .container .content .left .title h1 {
+    font-size: 64px;
+  }
+  .s-hero .container .content .left .title h2 {
+    font-size: 32px;
+  }
+  .s-hero .container .content .social {
+    padding-top: 132px;
+  }
+  .s-hero .container .content .img-hero {
+    margin-top: -176px;
+    max-width: 538px;
+    margin-left: -182px;
   }
 }
 
@@ -87,7 +134,7 @@
         color: var(--gray-text-light);
         font-size: 1.8rem;
         line-height: normal;
-        margin-bottom: 1.5em;
+        margin-bottom: 1.5rem;
         strong {
           font-size: 1.8rem;
         }
@@ -129,6 +176,21 @@
   }
 }
 
+@media (max-width: 1150px) {
+  .s-jornada .container .right p {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  .s-jornada .container .img-right {
+    width: 32rem;
+    height: 50.6rem;
+  }
+  .s-jornada .container .right {
+    width: 100%;
+    max-width: 72rem;
+  }
+}
+
 .s-experiencia {
   background: var(--gray-light-background);
   padding-top: 8rem;
@@ -160,6 +222,25 @@
   }
 }
 
+@media (max-width: 1150px) {
+  .s-experiencia .container .left {
+    margin-right: 4rem;
+  }
+  .s-experiencia .container .left {
+    padding-top: 1rem;
+  }
+  .s-experiencia .container .left p {
+    font-size: 16px;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .s-experiencia .container .left {
+    margin-right: 3rem;
+  }
+}
+
 .s-skills {
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -173,6 +254,7 @@
       }
       p {
         color: var(--gray-text-light);
+        font-size: 1.8rem;
       }
     }
   }
@@ -182,6 +264,7 @@
     ul li {
       color: var(--gray-text-light);
       line-height: 3.2rem;
+      font-size: 1.8rem;
     }
     .hard-skills {
       width: 100%;
@@ -202,6 +285,31 @@
   }
 }
 
+@media (max-width: 1150px) {
+  .s-skills .container .principal p {
+    font-size: 16px;
+    margin-bottom: 1.2rem;
+  }
+}
+@media (max-width: 991px) {
+  .s-skills .container .principal .left {
+    margin-right: 3rem;
+  }
+  .principal img {
+    width: 32rem;
+    height: 50.6rem;
+  }
+  .s-skills .habilidades .hard-skills {
+    max-width: 38rem;
+  }
+  .s-skills .habilidades .soft-skills {
+    max-width: 46rem;
+  }
+  .s-skills .habilidades ul li {
+    font-size: 1.6rem;
+  }
+}
+
 .s-portfolio {
   background: var(--blue-dark-background);
   padding-top: 8rem;
@@ -215,6 +323,7 @@
         max-width: 560px;
         P {
           color: var(--gray-text-light, #c4c4c4);
+          font-size: 1.8rem;
           width: 700px;
         }
       }
@@ -247,6 +356,18 @@
   }
 }
 
+@media (max-width: 1150px) {
+  .s-portfolio .container .principal .title P {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .s-portfolio .container .principal .title P {
+    font-size: 16px;
+  }
+}
+
 .s-depoimentos {
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -262,6 +383,7 @@
       }
       p {
         color: var(--gray-text-dark);
+        font-size: 1.8rem;
         margin-bottom: 4rem;
       }
     }
@@ -297,6 +419,37 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1150px) {
+  .s-depoimentos .container .left p {
+    font-size: 16px;
+  }
+  .card-depoimento p {
+    font-size: 16px;
+  }
+  .s-depoimentos .container .right .slide-depoimentos {
+    margin-bottom: 1.6rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .s-depoimentos {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .s-depoimentos .container .left {
+    margin-right: 32px;
+  }
+  .s-depoimentos .container .left p {
+    font-size: 16px;
+  }
+  .card-depoimento p {
+    font-size: 16px;
+  }
+  .s-depoimentos .container .right .slide-depoimentos {
+    margin-bottom: 56px;
   }
 }
 
