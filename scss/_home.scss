@@ -1,6 +1,7 @@
 .s-hero {
   height: 68.6rem;
   background: linear-gradient(0deg, #1c222c 0%, #125951 44.5%, #1b262f 100%);
+  position: relative;
   .container {
     @include flex(row, center, space-between);
     width: 100%;
@@ -106,6 +107,32 @@
   }
 }
 
+@media (max-width: 768px) {
+  .s-hero {
+    height: 800px;
+  }
+  .s-hero .container {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  .s-hero .container .content {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .s-hero .container .content .left {
+    margin: 0 auto;
+  }
+  .s-hero .container .content .left .social {
+    display: none;
+  }
+  .s-hero .container .content .img-hero {
+    margin-top: 8px;
+    margin-left: 80px; /* ver como ajustar sem usar o margin*/
+  }
+}
+
 .s-numbers {
   background: var(--blue-dark-background);
   .container {
@@ -113,6 +140,24 @@
     @include flex(row, center, space-between);
     padding-top: 168px;
     padding-bottom: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .s-numbers .container {
+    height: 100%;
+    flex-direction: column;
+    padding-bottom: 80px;
+  }
+  .s-numbers .card p {
+    font-size: 24px;
+  }
+  .s-numbers .left {
+    margin-top: -100px;
+    margin-bottom: 32px;
+  }
+  .s-numbers .middle {
+    margin-bottom: 32px;
   }
 }
 

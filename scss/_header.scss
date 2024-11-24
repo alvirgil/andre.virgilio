@@ -1,9 +1,9 @@
 header {
   display: flex;
   top: 0;
-  padding-top: 40px;
   width: 100%;
-  height: 8rem;
+  padding-top: 20px;
+  height: 100px;
   background: #1b262f;
   .container {
     @include flex(row, center, space-between);
@@ -27,6 +27,9 @@ header {
       }
     }
   }
+  .menu-mobile {
+    display: none;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -47,5 +50,17 @@ header {
   }
   header nav ul {
     gap: 2.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header .menu-mobile {
+    display: block;
+  }
+  header nav ul {
+    display: none;
+  }
+  .btn-light {
+    display: none;
   }
 }

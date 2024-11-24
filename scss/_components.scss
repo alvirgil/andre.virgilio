@@ -15,7 +15,7 @@
     span {
       font-family: Goldman;
       font-size: 10rem;
-      line-height: 70%;
+      line-height: 50%;
     }
     h3 {
       font-size: 80px;
@@ -68,6 +68,23 @@
     p {
       font-size: 1.8rem;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    width: 502px;
+  }
+  .cards .title span {
+    font-size: 10rem;
+    font-weight: 700;
+  }
+  .cards .title h3 {
+    font-weight: 700;
+    font-size: 80px;
+  }
+  .cards p {
+    font-size: 24px;
   }
 }
 
