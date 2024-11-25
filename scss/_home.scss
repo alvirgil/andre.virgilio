@@ -59,8 +59,6 @@
   }
 }
 
-
-
 @media (max-width: 1150px) {
   .s-hero {
     height: 58.8rem;
@@ -115,6 +113,7 @@
     width: 100%;
     text-align: center;
     display: block;
+    padding-top: 32px;
   }
   .s-hero .container .content .left {
     margin: 0 auto;
@@ -124,16 +123,7 @@
   }
   .s-hero .container .content .img-hero {
     margin-top: 8px;
-    margin-left: 80px; /* ver como ajustar sem usar o margin*/
-  }
-}
-
-@media (max-width: 768px) {
-  .s-hero .container .content {
-    padding-top: 32px;
-  }
-  .s-hero .container .content .img-hero {
-    margin-top: 8px;
+    /*margin-left: 80px;  ver como ajustar sem usar o margin*/
     margin-left: 94px;
   }
 }
@@ -144,8 +134,17 @@
   }
 }
 
-@media (max-width: 480px) {
-
+@media (max-width: 440px) {
+  .s-hero .container .content {
+    z-index: 10;
+  }
+  .s-hero .container .content .left .title h1 {
+    font-size: 50px;
+  }
+  .s-hero .container .content .left .title h2 {
+    font-size: 24px;
+    
+}
 }
 
 .s-numbers {
@@ -173,6 +172,23 @@
   }
   .s-numbers .middle {
     margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 440px) {
+  .s-numbers .left {
+    z-index: 1;
+    margin-bottom: 16px;
+    margin-top: -254px;
+  }
+  .s-numbers .middle {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .s-numbers .left {
+    margin-top: -280px;
   }
 }
 
@@ -351,6 +367,7 @@
     margin-bottom: 1.2rem;
   }
 }
+
 @media (max-width: 991px) {
   .s-skills .container .principal .left {
     margin-right: 3rem;
