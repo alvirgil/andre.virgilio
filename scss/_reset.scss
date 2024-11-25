@@ -28,17 +28,17 @@ html,
 body {
   .container {
     width: 100%;
-    max-width: 131.8rem;
+    max-width: 132rem;
   }
   background: var(--black-background);
-  @media (max-width: 1280px) {
-    .container {
-      width: 100%;
-      padding-left: 24px;
-      padding-right: 24px;
-    }
+  // @media (max-width: 1280px) {
+  //   .container {
+  //     width: 100%;
+  //     padding-left: 24px;
+  //     padding-right: 24px;
+  //   }
   }
-}
+
 
 button {
   background-color: transparent;

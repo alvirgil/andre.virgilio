@@ -6,13 +6,13 @@
     @include flex(row, center, space-between);
     width: 100%;
     max-width: 131.8rem;
-    width: 100%;
     padding-top: 19.2rem;
     .content {
       display: flex;
       width: 100%;
       .left {
-        width: 600px;
+        width: 100%;
+        max-width: 600px;
         .title {
           h2 {
             color: var(--gray-text-light);
@@ -22,7 +22,6 @@
             line-height: 100%;
           }
           h1 {
-            width: 600px;
             color: #00bd95;
             font-weight: 400;
             line-height: 100%;
@@ -60,11 +59,7 @@
   }
 }
 
-@media (max-width: 1280px) {
-  .s-hero .container .content .img-hero {
-    margin-left: -72px;
-  }
-}
+
 
 @media (max-width: 1150px) {
   .s-hero {
@@ -87,7 +82,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1050px) {
   .s-hero {
     height: 54.5rem;
   }
@@ -133,6 +128,26 @@
   }
 }
 
+@media (max-width: 768px) {
+  .s-hero .container .content {
+    padding-top: 32px;
+  }
+  .s-hero .container .content .img-hero {
+    margin-top: 8px;
+    margin-left: 94px;
+  }
+}
+
+@media (max-width: 600px) {
+  .s-hero .container .content .img-hero {
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+
+}
+
 .s-numbers {
   background: var(--blue-dark-background);
   .container {
@@ -153,7 +168,7 @@
     font-size: 24px;
   }
   .s-numbers .left {
-    margin-top: -100px;
+    margin-top: -76px;
     margin-bottom: 32px;
   }
   .s-numbers .middle {

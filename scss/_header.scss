@@ -41,6 +41,12 @@ header {
   }
 }
 
+@media (max-width: 1050px) {
+  header nav ul {
+    gap: 3.2rem;
+  }
+}
+
 @media (max-width: 991px) {
   header .logo-header {
     max-width: 12rem;
@@ -54,6 +60,11 @@ header {
 }
 
 @media (max-width: 768px) {
+  header .container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 1.5rem;
+  }
   header .menu-mobile {
     display: block;
   }
