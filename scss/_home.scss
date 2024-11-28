@@ -113,7 +113,7 @@
     width: 100%;
     text-align: center;
     display: block;
-    padding-top: 32px;
+    padding-top: 24px;
   }
   .s-hero .container .content .left {
     margin: 0 auto;
@@ -135,6 +135,9 @@
 }
 
 @media (max-width: 440px) {
+  .s-hero .container {
+    padding-top: 24px;
+  }
   .s-hero .container .content {
     z-index: 10;
   }
@@ -198,11 +201,17 @@
   }
 }
 
+@media (max-width: 600px) {
+  .s-numbers .left {
+    margin-top: -84px;
+  }
+}
+
 @media (max-width: 440px) {
   .s-numbers .left {
     z-index: 1;
     margin-bottom: 16px;
-    margin-top: -254px;
+    margin-top: -280px;
   }
   .s-numbers .middle {
     margin-bottom: 16px;
@@ -211,7 +220,7 @@
 
 @media (max-width: 375px) {
   .s-numbers .left {
-    margin-top: -280px;
+    margin-top: -362px;
   }
 }
 
