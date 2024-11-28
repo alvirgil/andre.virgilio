@@ -12,8 +12,9 @@
       width: 100%;
       .left {
         width: 100%;
-        max-width: 600px;
         .title {
+          width: 100%;
+          max-width: 582px;
           h2 {
             color: var(--gray-text-light);
             font-family: Mohave;
@@ -65,11 +66,22 @@
   }
   .s-hero .container .content .left .title h1 {
     font-size: 72px;
-    width: 582px;
+  }
+  .s-hero .container .content .img-hero {
+    margin-top: -180px;
+    max-width: 580px;
+    margin-left: -100px;
+  }
+  .s-hero .container .content .social {
+    display: flex;
+    align-items: center;
+    padding-top: 152px;
+    width: 480px;
+    gap: 24px;
   }
 }
 
-@media (max-width: 1150px) {
+/* @media (max-width: 1150px) {
   .s-hero {
     height: 58.8rem;
   }
@@ -88,7 +100,7 @@
     width: 480px;
     gap: 24px;
   }
-}
+}*/
 
 @media (max-width: 1050px) {
   .s-hero {
@@ -127,6 +139,7 @@
   }
   .s-hero .container .content .left {
     margin: 0 auto;
+    width: 582px;
   }
   .s-hero .container .content .left .social {
     display: none;
@@ -150,6 +163,9 @@
   }
   .s-hero .container .content {
     z-index: 10;
+  }
+  .s-hero .container .content .left {
+    width: 100%;
   }
   .s-hero .container .content .left .title h1 {
     font-size: 50px;
