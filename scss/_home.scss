@@ -59,6 +59,16 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .s-hero {
+    height: 58.8rem;
+  }
+  .s-hero .container .content .left .title h1 {
+    font-size: 72px;
+    width: 582px;
+  }
+}
+
 @media (max-width: 1150px) {
   .s-hero {
     height: 58.8rem;
