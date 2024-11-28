@@ -8,11 +8,11 @@ h4 {
 h1 {
   font-size: 8rem;
   font-weight: 400;
-  letter-spacing: 1.6px;
+  letter-spacing: 0.16rem;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 6.4rem;
   font-weight: 700;
   line-height: 100%;
   color: var(--green-light);
@@ -20,7 +20,7 @@ h2 {
 
 h3 {
   color: var(--green-light);
-  font-size: 36px;
+  font-size: 3.6rem;
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
@@ -30,26 +30,21 @@ h3 {
 h4 {
   color: var(--green-dark);
   font-family: Goldman;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 h5 {
   text-align: center;
   color: var(--green-dark);
   font-family: Goldman;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.032rem;
 }
 
-@media (max-width: 991px) {
-  h2 {
-    font-size: 56px;
-  }
-}
 
 
 

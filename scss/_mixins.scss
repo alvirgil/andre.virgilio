@@ -4,3 +4,9 @@
     align-items: $align;
     justify-content: $justify;
 }
+
+@mixin responsive($screenWidth) {
+    @media(max-width:$screenWidth) {
+        @content;
+    }
+}

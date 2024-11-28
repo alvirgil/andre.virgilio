@@ -6,7 +6,7 @@
   border: none;
   box-sizing: border-box;
   font-family: "Mohave", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 img {
@@ -14,13 +14,15 @@ img {
   display: block;
 }
 
+
+
 html {
   font-size: 62.5%;
 }
 
 p {
   &:not(:last-child) {
-    margin-bottom: 18px;
+    margin-bottom: 1.8rem;
   }
 }
 
@@ -31,14 +33,7 @@ body {
     max-width: 131.8rem;
   }
   background: var(--black-background);
-  // @media (max-width: 1280px) {
-  //   .container {
-  //     width: 100%;
-  //     padding-left: 24px;
-  //     padding-right: 24px;
-  //   }
-  }
-
+}
 
 button {
   background-color: transparent;

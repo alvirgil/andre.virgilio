@@ -1,15 +1,18 @@
 .s-hero {
-  height: 68.6rem;
-  background: linear-gradient(0deg, #1c222c 0%, #125951 44.5%, #1b262f 100%);
+  display: block;
+  background: linear-gradient(0deg, #1C222C 33.7%, #125951 74.72%, #1B262F 100%);
+  padding-bottom: 72px
+  ;
   position: relative;
   .container {
-    @include flex(row, center, space-between);
+    display: block;
     width: 100%;
     max-width: 131.8rem;
     padding-top: 19.2rem;
     .content {
-      display: flex;
       width: 100%;
+      display: flex;
+      justify-content: space-between;
       .left {
         width: 100%;
         .title {
@@ -57,20 +60,40 @@
         z-index: 1;
       }
     }
+    .card-numbers {
+      display: flex;
+      justify-content: space-between;
+      margin-top: -5.6rem;
+    }
   }
 }
 
-@media (max-width: 1280px) {
-  .s-hero {
-    height: 58.8rem;
-  }
+@media (max-width: 128rem) {
   .s-hero .container .content .left .title h1 {
-    font-size: 72px;
+    font-size: 7.2rem;
   }
   .s-hero .container .content .img-hero {
-    margin-top: -180px;
-    max-width: 580px;
-    margin-left: -100px;
+    margin-top: -18rem;
+    max-width: 58rem;
+    margin-left: -10rem;
+  }
+  .s-hero .container .content .social {
+    display: flex;
+    align-items: center;
+    padding-top: 15.2rem;
+    width: 48rem;
+    gap: 2.4rem;
+  }
+}
+
+@media (max-width: 115rem) {
+  .s-hero .container .content .left .title h1 {
+    font-size: 7.2rem;
+  }
+  .s-hero .container .content .img-hero {
+    margin-top: -18rem;
+    max-width: 58rem;
+    margin-left: -10rem;
   }
   .s-hero .container .content .social {
     display: flex;
@@ -80,32 +103,9 @@
     gap: 24px;
   }
 }
-
-/* @media (max-width: 1150px) {
-  .s-hero {
-    height: 58.8rem;
-  }
-  .s-hero .container .content .left .title h1 {
-    font-size: 72px;
-  }
-  .s-hero .container .content .img-hero {
-    margin-top: -180px;
-    max-width: 580px;
-    margin-left: -100px;
-  }
-  .s-hero .container .content .social {
-    display: flex;
-    align-items: center;
-    padding-top: 152px;
-    width: 480px;
-    gap: 24px;
-  }
-}*/
 
 @media (max-width: 1050px) {
-  .s-hero {
-    height: 54.5rem;
-  }
+
   .s-hero .container .content .left .title h1 {
     font-size: 64px;
   }
@@ -146,7 +146,7 @@
   }
   .s-hero .container .content .img-hero {
     margin-top: 8px;
-    /*margin-left: 80px;  ver como ajustar sem usar o margin*/
+
     margin-left: 94px;
   }
 }
@@ -172,7 +172,7 @@
   }
   .s-hero .container .content .left .title h2 {
     font-size: 24px;
-}
+  }
 }
 
 @media (max-width: 378px) {
@@ -181,74 +181,6 @@
   }
 }
 
-.s-numbers {
-  background: var(--blue-dark-background);
-  .container {
-    height: 40.8rem;
-    @include flex(row, center, space-between);
-    padding-top: 168px;
-    padding-bottom: 140px;
-  }
-}
-
-@media (max-width: 820px) {
-  .s-numbers .container {
-    height: 100%;
-    flex-direction: column;
-    padding-bottom: 80px;
-  }
-  .s-numbers .card p {
-    font-size: 24px;
-  }
-  .s-numbers .left {
-    margin-top: -76px;
-    margin-bottom: 32px;
-  }
-  .s-numbers .middle {
-    margin-bottom: 32px;
-  }
-}
-
-@media (max-width: 768px) {
-  .s-numbers .container {
-    height: 100%;
-    flex-direction: column;
-    padding-bottom: 80px;
-  }
-  .s-numbers .card p {
-    font-size: 24px;
-  }
-  .s-numbers .left {
-    margin-top: -76px;
-    margin-bottom: 32px;
-  }
-  .s-numbers .middle {
-    margin-bottom: 32px;
-  }
-}
-
-@media (max-width: 600px) {
-  .s-numbers .left {
-    margin-top: -84px;
-  }
-}
-
-@media (max-width: 440px) {
-  .s-numbers .left {
-    z-index: 1;
-    margin-bottom: 16px;
-    margin-top: -280px;
-  }
-  .s-numbers .middle {
-    margin-bottom: 16px;
-  }
-}
-
-@media (max-width: 378px) {
-  .s-numbers .left {
-    margin-top: -362px;
-  }
-}
 
 .s-jornada {
   padding-top: 8.8rem;
@@ -264,6 +196,9 @@
     .right {
       width: 100%;
       max-width: 768px;
+      h2 {
+        margin-bottom: 24px;
+      }
       p {
         color: var(--gray-text-light);
         font-size: 1.8rem;
@@ -329,14 +264,14 @@
   .s-jornada {
     padding-top: 7.2rem;
     padding-bottom: 7.2rem;
-}
-.s-jornada .container {
-  padding: 0 24px;
-}
-.s-jornada .container .right {
-  width: 100%;
-  max-width: 76.8rem;
-}
+  }
+  .s-jornada .container {
+    padding: 0 24px;
+  }
+  .s-jornada .container .right {
+    width: 100%;
+    max-width: 76.8rem;
+  }
   .s-jornada .container .img-right {
     display: none;
   }
@@ -347,8 +282,8 @@
 
 @media (max-width: 600px) {
   .s-jornada .container .right .links {
-   flex-direction: column;
-   padding-top: 24px;
+    flex-direction: column;
+    padding-top: 24px;
   }
   .s-jornada .container .right .links .podcasts {
     flex-direction: column;
@@ -357,13 +292,13 @@
   .s-jornada .container .right .links .podcasts ul {
     text-align: justify;
   }
-    .s-jornada .container .img-right {
-      display: none;
-    }
-    h2 {
-      text-align: center;
-    }
+  .s-jornada .container .img-right {
+    display: none;
   }
+  h2 {
+    text-align: center;
+  }
+}
 
 .s-experiencia {
   background: var(--gray-light-background);
@@ -633,7 +568,7 @@
     padding-top: 112px;
     padding-bottom: 112px;
     text-align: center;
-    /*border-bottom: 2px solid var(--green-light);*/
+
     h2 {
       line-height: 70%;
       padding-bottom: 48px;
